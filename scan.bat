@@ -17,7 +17,7 @@ goto check_Permissions
 		echo Scan three complete, now restoring health.
 
 		dism /Online /Cleanup-image /Restorehealth
-		echo Scans completed.
+		echo Scans completed, you can close this window now.
 	) else (
 		echo Failure: Current permissions inadequate. Please run as Administrator.
 	)
